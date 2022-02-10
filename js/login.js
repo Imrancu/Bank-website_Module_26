@@ -5,8 +5,8 @@ document.getElementById('login-submit').addEventListener('click', function() {
     // get user password
     const passwordField = document.getElementById('user-password');
     const userPassword = passwordField.value;
-
+    // check email and password
     if (userEmail == 'mdimran3772@gmail.com' && userPassword == 'secret') {
         window.location.href = 'banking.html';
     }
-})
+});
